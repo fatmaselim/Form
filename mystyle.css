@@ -1,0 +1,72 @@
+body{
+    background-image: url(./istockphoto-834741464-612x612.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.links{
+    display:flex;
+    text-align: right;
+    margin-left: 60%;
+    a{
+        border: 2px solid rgba(0, 0, 0, 0.5);
+    padding:1px;
+    align:center;
+    border-radius: 1px;
+
+    width:70px;
+    margin:20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    color:antiquewhite;
+    
+    }
+}
+pre{
+    font-size:medium;
+    font-style:italic;
+    color:aqua;
+}
+.h1{
+    text-align: center;
+    font-size: 200%;
+    font-style: normal;
+    color:aqua;
+}
+.form{
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    padding:20px;
+    border-radius: 10px;
+    background-color:white;
+    width:400px;
+    margin:20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+    input{
+        width:200px;
+        height: 30px;
+        font-size: 16px;
+        padding: 5px;
+        border:2px solid #ccc;
+        border-radius: 5px;
+    }
+    input[type="submit"]{
+        background-color:brown;
+        font-size: 16px;
+    font-weight: bold;
+    color: aliceblue;
+    }
+    select{
+        width:200px;
+        height: 30px;
+        font-size: 16px;
+        padding: 5px;
+        border:2px solid #ccc;
+        border-radius: 5px;
+    }
+}
